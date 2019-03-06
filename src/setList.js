@@ -28,7 +28,7 @@ class SetList extends Component {
       <div>
         <ul className="set-list">
           {this.state.data.sets.map((set, index) => {
-            return <li className="set"><a className="link-title" href={set.video_link}>{set.title}</a></li>
+            return <li className="set"><a className="link-title" href={set.video_link}>{set.title}</a><div className="time">+ {set.set_time}</div></li>
           })}
         </ul>
       </div>

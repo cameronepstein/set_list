@@ -5,7 +5,8 @@
 
 .set {
   font-family: "Courier";
-  padding: 4em;
+  padding: 2em;
+  max-width: 55%;
 }
 
 .link-title {
@@ -15,6 +16,10 @@
 }
 
 .link-title:hover {
-  /* text-decoration: none; */
-  color: grey;
+  text-decoration: underline;
+}
+
+.time {
+  color: white;
+  padding-top: 1em;
 }

@@ -11,17 +11,20 @@ const boilerRoomSetData = {
     {
       "id": 1,
       "title": "ANKLEPANTS BOILER ROOM BERLIN LIVE SET",
-      "video_link": "https://www.youtube.com/watch?v=Fb4bCgWkZRc"
+      "video_link": "https://www.youtube.com/watch?v=Fb4bCgWkZRc",
+      "set_time": "42:51",
     },
     {
       "id": 2,
       "title": "MOSES BOYD'S EXODUS - BOILER ROOM IN STEREO",
-      "video_link": "https://www.youtube.com/watch?v=6SlTkV4UMPI"
+      "video_link": "https://www.youtube.com/watch?v=6SlTkV4UMPI",
+      "set_time": "58:10",
     },
     {
       "id": 3,
       "title": "OVERMONO (TESSELA & TRUSS) BOILER ROOM LONDON LIVE SET",
-      "video_link": "https://www.youtube.com/watch?v=BpA2n8bvpOk"
+      "video_link": "https://www.youtube.com/watch?v=BpA2n8bvpOk",
+      "set_time": "48:36",
     }
   ]
 };
