@@ -22,7 +22,7 @@ const testData = {
 
 app.get('/top', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(JSON.stringify({"data": testData}));
+  res.send(JSON.stringify(testData));
 })
 
 app.listen(3001, () =>
