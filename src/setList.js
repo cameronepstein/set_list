@@ -25,10 +25,11 @@ class SetList extends Component {
   render() {
     return (
       <div>
-        <h1>Boiler room stuff</h1>
-        {this.state.data.sets.map((set, index) => {
-          return <h1>{set.title}</h1>
-        })}
+        <ul className="set-list">
+          {this.state.data.sets.map((set, index) => {
+            return <li className="set"><a className="link-title" href={set.video_link}>{set.title}</a></li>
+          })}
+        </ul>
       </div>
     )
   }
