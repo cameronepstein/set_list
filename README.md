@@ -20,3 +20,14 @@ Build a simple node server + React web app that displays information about your 
 You don't need to use a database (just use plain objects in your server side code), but you should make a network request to your node server to fetch information about the sets (including but not limited to title, artist, and location), and then display them in a simple list.
 
 You can use any server/client setup you choose, but please keep it simple.
+
+## Packages worth noting...
+
+#### express-pino-logger and pino-colada
+High quality logs from server
+
+#### nodemon
+Automatically restarts the server when an update occurs.
+
+#### npm-run-all
+Allows multiple npm scripts to run concurrently.
