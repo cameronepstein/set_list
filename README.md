@@ -2,6 +2,17 @@
 
 This project renders my favourite Boiler Room sets.
 
+## Set up
+
+To set up project locally, run the following commands:
+
+- Clone this repo `git clone https://github.com/cameronepstein/set_list.git`
+- Change directory into project `cd set_list`
+- Run `nvm use 10.15.3`
+- Run `npm install`
+- Run `npm start` to view project in the browser
+
+
 ## Project Outline
 
 Build a simple node server + React web app that displays information about your three favourite Boiler Room sets.
