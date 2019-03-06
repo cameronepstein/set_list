@@ -10,7 +10,7 @@ To set up project locally, run the following commands:
 - Change directory into project `cd set_list`
 - Run `nvm use 10.15.3`
 - Run `npm install`
-- Run `npm start` to view project in the browser
+- Run `npm run dev` to view project in the browser
 
 
 ## Project Outline
