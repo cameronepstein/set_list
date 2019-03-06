@@ -22,9 +22,9 @@ const testData = {
 
 app.get('/top', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(JSON.stringify({"data": testData}))
+  res.send(JSON.stringify({"data": testData}));
 })
 
 app.listen(3001, () =>
-  console.log('Server running on localhost:3001')
+  console.log('Server running on localhost:3001');
 )
