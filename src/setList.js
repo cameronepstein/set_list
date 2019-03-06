@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './setList.css';
 
 class SetList extends Component {
 

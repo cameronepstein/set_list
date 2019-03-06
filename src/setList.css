@@ -1,0 +1,20 @@
+.set-list {
+  text-align: left;
+  list-style-type: none;
+}
+
+.set {
+  font-family: "Courier";
+  padding: 4em;
+}
+
+.link-title {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+
+.link-title:hover {
+  /* text-decoration: none; */
+  color: grey;
+}

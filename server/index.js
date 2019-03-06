@@ -10,17 +10,17 @@ const boilerRoomSetData = {
   "sets":[
     {
       "id": 1,
-      "title": "Anklepants Boiler Room Berlin Live Set",
+      "title": "ANKLEPANTS BOILER ROOM BERLIN LIVE SET",
       "video_link": "https://www.youtube.com/watch?v=Fb4bCgWkZRc"
     },
     {
       "id": 2,
-      "title": "Moses Boyd's Exodus - Boiler Room In Stereo",
+      "title": "MOSES BOYD'S EXODUS - BOILER ROOM IN STEREO",
       "video_link": "https://www.youtube.com/watch?v=6SlTkV4UMPI"
     },
     {
       "id": 3,
-      "title": "Overmono (Tessela & Truss) Boiler Room London Live Set",
+      "title": "OVERMONO (TESSELA & TRUSS) BOILER ROOM LONDON LIVE SET",
       "video_link": "https://www.youtube.com/watch?v=BpA2n8bvpOk"
     }
   ]
