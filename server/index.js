@@ -8,9 +8,20 @@ app.use(pino);
 
 
 app.get('/top', (req, res) => {
-  const testData = 'hello';
+  const testData = {
+    "sets":[
+      {
+        "id": 1,
+        "title": "one",
+      },
+      {
+        "id": 2,
+        "title": "two",
+      }
+    ]
+  };
   res.setHeader('Content-Type', 'application/json');
-  res.send(JSON.stringify({sets: testData}))
+  res.send(JSON.stringify({"data": testData}))
 })
 
 app.listen(3001, () =>
