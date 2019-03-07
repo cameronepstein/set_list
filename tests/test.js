@@ -1,3 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { configure, shallow } from 'enzyme';
+import App from '../src/App.js';
+
 const chai = require('chai');
 const expect = chai.expect;
 const chaihttp = require('chai-http')
