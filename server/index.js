@@ -29,7 +29,6 @@ const boilerRoomSetData = {
   ]
 };
 
-
 app.get('/top', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(boilerRoomSetData));
@@ -38,3 +37,5 @@ app.get('/top', (req, res) => {
 app.listen(3001, () =>
   console.log('Server running on localhost:3001')
 )
+
+module.exports = app;
