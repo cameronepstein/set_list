@@ -31,4 +31,17 @@ describe('Server', ()=>{
       done();
     });
   });
+  it('should respond to requests with correct set data', (done) =>{
+    chai.request(server)
+    .get('/top')
+    .end(function(err, res){
+      expect(res.body.sets[0]).to.contain.all.keys('id');
+      expect(res.body.sets[0]).to.contain.all.keys('title');
+      expect(res.body.sets[0]).to.contain.all.keys('video_link');
+      expect(res.body.sets[0]).to.contain.all.keys('set_time');
+      expect(res.body.sets[0]).to.contain.all.keys('views');
+      expect(res.body.sets[0]).to.contain.all.keys('like_data');
+      done();
+    });
+  });
 });
