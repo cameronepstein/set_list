@@ -14,6 +14,7 @@ const boilerRoomSetData = {
       "video_link": "https://www.youtube.com/watch?v=Fb4bCgWkZRc",
       "set_time": "42:51",
       "views": "865,812",
+      "like_data": "4.3k : 1.4k",
     },
     {
       "id": 2,
@@ -21,6 +22,7 @@ const boilerRoomSetData = {
       "video_link": "https://www.youtube.com/watch?v=6SlTkV4UMPI",
       "set_time": "58:10",
       "views": "101,862",
+      "like_data": "1.7k : 18",
     },
     {
       "id": 3,
@@ -28,6 +30,7 @@ const boilerRoomSetData = {
       "video_link": "https://www.youtube.com/watch?v=BpA2n8bvpOk",
       "set_time": "48:36",
       "views": "31,116",
+      "like_data": "478 : 5",
     }
   ]
 };
