@@ -13,10 +13,13 @@
   font-size: 2em;
   text-decoration: none;
   color: white;
+  background: black;
 }
 
 .link-title:hover {
   text-decoration: underline;
+  background: white;
+  color: black;
 }
 
 .time {

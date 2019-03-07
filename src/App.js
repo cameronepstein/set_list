@@ -10,6 +10,7 @@ class App extends Component {
       <div className="App">
         <h1 className="title">BOILER ROOM</h1>
         <SetList />
+        <h1 className="bg-title">BOILER ROOM</h1>
       </div>
     );
   }

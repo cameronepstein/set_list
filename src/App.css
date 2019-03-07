@@ -29,6 +29,16 @@
   color: white;
 }
 
+.bg-title {
+  font-size: 14em;
+  margin-top: -2em;
+  font-family: "Arial Black";
+  color: #0a0a0a;
+  outline-color: white;
+  z-index: -1;
+  position: relative;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
